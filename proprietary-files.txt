@@ -1,1 +1,52 @@
 # Unpinned blobs from chopin-user 13 TP1A.220624.014 V14.0.6.0.TKPMIXM release-keys
+
+# Batterysecret
+vendor/bin/batterysecret
+
+# Display configs
+vendor/etc/cust_color_36_02_0a.xml
+vendor/etc/cust_color_42_02_0b.xml
+vendor/etc/cust_silky_brightness.xml
+vendor/etc/dsi_k10a_36_02_0a_dsc_vdo_mi.xml
+vendor/etc/dsi_k10a_42_02_0b_dsc_vdo_mi.xml
+
+# Fingerprint
+vendor/lib64/hw/fingerprint.fpc_isee.so:vendor/lib64/hw/fingerprint.fpc.default.so;FIX_SONAME
+vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so;FIX_SONAME
+vendor/lib64/libgf_ca.so
+vendor/lib64/libgf_hal.so
+vendor/lib64/libgoodixhwfingerprint.so
+
+# Touch
+vendor/firmware/novatek_nt36672c_k10a_fw01.bin
+vendor/firmware/novatek_nt36672c_k10a_fw02.bin
+vendor/firmware/novatek_nt36672c_k10a_mp01.bin
+vendor/firmware/novatek_nt36672c_k10a_mp02.bin
+vendor/firmware/novatek_ts_fw01.bin
+vendor/firmware/novatek_ts_fw02.bin
+vendor/firmware/novatek_ts_mp01.bin
+vendor/firmware/novatek_ts_mp02.bin
+
+# Thermal
+vendor/bin/mi_thermald
+vendor/etc/thermal-4k.conf
+vendor/etc/thermal-camera.conf
+vendor/etc/thermal-chg-only.conf
+vendor/etc/thermal-class0.conf
+vendor/etc/thermal-map.conf
+vendor/etc/thermal-mgame.conf
+vendor/etc/thermal-navigation.conf
+vendor/etc/thermal-nolimits.conf
+vendor/etc/thermal-normal.conf
+vendor/etc/thermal-per-camera.conf
+vendor/etc/thermal-per-class0.conf
+vendor/etc/thermal-per-navigation.conf
+vendor/etc/thermal-per-normal.conf
+vendor/etc/thermal-per-video.conf
+vendor/etc/thermal-phone.conf
+vendor/etc/thermal-tgame.conf
+vendor/etc/thermal-video.conf
+vendor/etc/thermald-devices.conf
+
+# Trusted Execution Environment
+vendor/thh/ta/8aaaf201246000007143fe4f7c823c80.ta
