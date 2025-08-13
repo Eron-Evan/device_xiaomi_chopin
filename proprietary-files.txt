@@ -10,6 +10,12 @@ vendor/bin/lib3a.ccu.dm
 vendor/bin/lib3a.ccu.pm
 vendor/etc/init/camerahalserver.rc
 vendor/firmware/lib3a.ccu
+vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
+vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/com.xiaomi.plugin.capbokeh.so
 vendor/lib64/com.xiaomi.plugin.dc.so
 vendor/lib64/com.xiaomi.plugin.depurple.so
@@ -32,11 +38,6 @@ vendor/lib64/com.xiaomi.plugin.tetrassr.so
 vendor/lib64/com.xiaomi.plugin.uwfusion.so
 vendor/lib64/gc02m1sunny_mipi_raw_IdxMgr.so
 vendor/lib64/gc02m1sunny_mipi_raw_tuning.so
-vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
-vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 vendor/lib64/imx355sunny_mipi_raw_IdxMgr.so
 vendor/lib64/imx355sunny_mipi_raw_tuning.so
 vendor/lib64/lib3a.ae.core.so
@@ -616,7 +617,6 @@ vendor/lib64/libvidhance_stabilizer.so
 vendor/lib64/libvidhance_super_stabilization.so
 vendor/lib64/libwa_opticalzoom_fusion.so
 vendor/lib64/libxmi_high_dynamic_range.so
-vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/ov16a1qofilm_mipi_raw_IdxMgr.so
 vendor/lib64/ov16a1qofilm_mipi_raw_tuning.so
 vendor/lib64/ov64b40sunny_mipi_raw_1_IdxMgr.so
@@ -636,6 +636,22 @@ vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 
 # Camera-configs
+vendor/etc/camera/jiiganmodel/fusion_models/fusion_cache
+vendor/etc/camera/jiiganmodel/fusion_models/fusion_mecp.bin
+vendor/etc/camera/jiiganmodel/fusion_models/fusion_model
+vendor/etc/camera/jiiganmodel/fusion_models/fusion_policy
+vendor/etc/camera/xiaomi/dualbokehsnapshot.json
+vendor/etc/camera/xiaomi/frontbokehsnapshot.json
+vendor/etc/camera/xiaomi/frontsinglesnapshot.json
+vendor/etc/camera/xiaomi/frontsupernightsnapshot.json
+vendor/etc/camera/xiaomi/manualsnapshot.json
+vendor/etc/camera/xiaomi/normalpreview.json
+vendor/etc/camera/xiaomi/normalsnapshot.json
+vendor/etc/camera/xiaomi/satsnapshot.json
+vendor/etc/camera/xiaomi/superhdsnapshot.json
+vendor/etc/camera/xiaomi/superlowlightsnapshot.json
+vendor/etc/camera/xiaomi/thirdpartysnapshot.json
+vendor/etc/camera/xiaomi/uwsuperlowlightshot.json
 vendor/etc/camera/CFR_para_HD.bin
 vendor/etc/camera/CFR_para_M.bin
 vendor/etc/camera/CFR_para_T.bin
@@ -652,10 +668,6 @@ vendor/etc/camera/com.xiaomi.dcal.wu.golden
 vendor/etc/camera/deblur_sd_opencl_binary.bin
 vendor/etc/camera/deblur_sd_opencl_params.bin
 vendor/etc/camera/intsense_config_optical_zoom.bin
-vendor/etc/camera/jiiganmodel/fusion_models/fusion_cache
-vendor/etc/camera/jiiganmodel/fusion_models/fusion_mecp.bin
-vendor/etc/camera/jiiganmodel/fusion_models/fusion_model
-vendor/etc/camera/jiiganmodel/fusion_models/fusion_policy
 vendor/etc/camera/libal_fpc_tuning.bin
 vendor/etc/camera/reiddetv2.bin
 vendor/etc/camera/reiddetv2_apu_cache.bin
@@ -665,18 +677,6 @@ vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/sr_params.xml
 vendor/etc/camera/video_bokeh_apu_front_20210413.bin
 vendor/etc/camera/vidhance_calibration
-vendor/etc/camera/xiaomi/dualbokehsnapshot.json
-vendor/etc/camera/xiaomi/frontbokehsnapshot.json
-vendor/etc/camera/xiaomi/frontsinglesnapshot.json
-vendor/etc/camera/xiaomi/frontsupernightsnapshot.json
-vendor/etc/camera/xiaomi/manualsnapshot.json
-vendor/etc/camera/xiaomi/normalpreview.json
-vendor/etc/camera/xiaomi/normalsnapshot.json
-vendor/etc/camera/xiaomi/satsnapshot.json
-vendor/etc/camera/xiaomi/superhdsnapshot.json
-vendor/etc/camera/xiaomi/superlowlightsnapshot.json
-vendor/etc/camera/xiaomi/thirdpartysnapshot.json
-vendor/etc/camera/xiaomi/uwsuperlowlightshot.json
 
 # Display configs
 vendor/etc/cust_color_36_02_0a.xml
