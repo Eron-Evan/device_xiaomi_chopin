@@ -17,8 +17,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    FrameworksResOverlayAres \
-    SystemUIOverlayAres \
+    FrameworksResOverlayChopin \
+    SystemUIOverlayChopin \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
